@@ -1,0 +1,234 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* COLORS */
+:root {
+    --color-lightgrey: #717171;
+    --color-blue: #1F274B;
+    --color-red: #E20613;
+    --color-white: #fff;
+}
+
+/* RESET */
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    /* FONTS POUR L'ENSEMBLE DU SITE */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+header .pre-header {
+    color: var(--color-lightgrey);
+    font-size: 11px;
+    font-weight: 500;
+    margin: 14px auto;
+    height: 39px;
+}
+header .pre-header p:nth-child(2) {
+    margin-top: 7px;
+} 
+header .logo {
+    margin-top: 27px;
+}
+header .logo img{
+    width: 202px;
+    height: 31px;
+}
+header img {
+    margin-top: 23px;
+    width: 100%;
+}
+
+/* SECTION INTRO */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.intro .logo-content img {
+    width: 186px;
+}
+.intro p {
+    font-size: 12px;
+    color: var(--color-blue);
+    margin-top: 20px;
+}
+.intro .name {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color-red);
+}
+.intro .bold {
+    font-weight: bold;
+}
+
+/* SECTION CONTENT */
+.content-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--color-blue);
+    margin-top: 32px;
+    
+}
+.content-one p:nth-child(1) {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--color-white);
+}
+.content-one .card {
+    display: flex;
+    flex-direction: row;
+    margin-left: 16px;
+    margin-top: 24.5px;
+}
+.content-one .card img {
+    width: 22px;
+    height: 22px;
+}
+.content-one .card p {
+    text-align: left;
+    color: var(--color-white);
+}
+.content-one .card p span {
+    font-weight: bold;
+}
+
+/* SECTION CONTENT TWO */
+.content-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 58px;
+}
+.content-two img {
+    position: relative;
+}
+.content-two .text-content {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 100px auto 0;
+}
+.content-two .text-content .txt-one {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--color-blue);
+    
+    padding: 0px 30px;
+}
+.content-two .text-content .txt-two {
+    font-size: 12px;
+    color: var(--color-blue);
+    margin: 20px auto;
+    padding: 0px 20px;
+}
+.content-two .text-content button {
+    border: none;
+    background-color: var(--color-red);
+    width: 204px;
+    height: 36px;
+    color: var(--color-white);
+    font-size: 16px;
+}
+
+/* SECTION POINTS */
+.points {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin-top: 55.92px;
+}
+.points img {
+    position: relative;
+}
+.points .text-content {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 30px auto 0;
+}
+.points .text-content .name {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--color-blue);
+}
+.points .text-content .nbr-pt {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-blue);
+}
+.points .text-content .nbr-pt span{
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--color-red);
+}
+.points .text-content .nbr {
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--color-blue);
+}
+.points .text-content .nbr span{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-blue);
+}
+.points .text-content .register{
+    font-size: 11px;
+    font-weight: bold;
+    color: var(--color-blue);
+    padding: 10px 0px;
+}
+.points .text-content .btn img{
+    margin-right: 10px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 16px auto 95px;
+}
+footer p {
+    font-size: 10px;
+    color: var(--color-blue);
+    padding: 10px 0px;
+}
+footer .logos-content {
+    margin: 10px auto;
+}
+footer .logos-content img {
+    width: 42px;
+}
