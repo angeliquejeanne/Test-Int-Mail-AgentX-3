@@ -1,0 +1,101 @@
+@media screen and (max-width: 767px) { 
+
+    .content-one {
+       padding: 32px 0px;
+    }
+    .content-two .text-content {
+        position: absolute;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        margin: 100px auto 0;
+        width: 320px;
+    }
+    .content-two .text-content .txt-one {
+        font-size: 20px;
+        font-weight: bold;
+        color: var(--color-blue);
+        
+        padding: 0px 30px;
+    }
+    .content-two .text-content .txt-two {
+        font-size: 12px;
+        color: var(--color-blue);
+        margin: 20px auto;
+        padding: 0px 20px;
+    }
+}
+@media (min-width: 768px) {
+    body {
+        margin: 0px 80pc 0px 80px;
+    }
+    header {
+        width: 600px;
+    }
+    .intro {
+        width: 600px;
+    }
+    .content-one {
+        width: 600px;
+        padding: 30px 0px;
+    }
+    
+    .content-one .card {
+        width: 420px;
+    }
+    .content-one .card img {
+        margin-right: 10px;
+    }
+    
+    .content-two {
+        width: 600px;
+    }
+    .content-two img {
+        width: 600px;
+    }
+    .content-two .vers-mob {
+        display: none;
+    }
+    .content-two .vers-desk {
+        display: block;
+    }
+    .content-two .text-content .txt-one {
+        font-size: 20px;
+        font-weight: bold;
+        color: var(--color-blue);
+        padding: 60px 0px 20px;
+    }
+    .content-two .text-content .txt-two {
+        font-size: 14px;
+        color: var(--color-blue);
+        padding: 20px 0px 30px;
+    }
+    .content-two .text-content {
+        width: 380px;
+        position: absolute;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        margin: 10px auto;
+        padding-left: 55px;
+    }
+    .content-two .text-content button {
+        margin: 20px auto;
+    }
+    .points {
+        width: 600px;
+    }
+    footer {
+        width: 600px;
+        padding: 30px 0px;
+        justify-content: center;
+    }
+    footer p {
+        padding: 10px 0px;
+        width: 330px;
+    }
+}

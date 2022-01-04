@@ -101,6 +101,7 @@ header img {
     flex-direction: row;
     margin-left: 16px;
     margin-top: 24.5px;
+    width: 320px;
 }
 .content-one .card img {
     width: 22px;
@@ -126,28 +127,14 @@ header img {
 .content-two img {
     position: relative;
 }
-.content-two .text-content {
-    position: absolute;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    margin: 100px auto 0;
+.content-two .vers-desk {
+    display: none;
 }
-.content-two .text-content .txt-one {
-    font-size: 20px;
-    font-weight: bold;
-    color: var(--color-blue);
-    
-    padding: 0px 30px;
+.content-two .vers-mob {
+    display: block;
 }
-.content-two .text-content .txt-two {
-    font-size: 12px;
-    color: var(--color-blue);
-    margin: 20px auto;
-    padding: 0px 20px;
-}
+
+
 .content-two .text-content button {
     border: none;
     background-color: var(--color-red);
@@ -219,12 +206,12 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 16px auto 95px;
 }
 footer p {
     font-size: 10px;
     color: var(--color-blue);
     padding: 10px 0px;
+    width: 200px;
 }
 footer .logos-content {
     margin: 10px auto;
