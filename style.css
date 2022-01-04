@@ -153,17 +153,6 @@ header img {
     /* text-align: center; */
     margin-top: 55.92px;
 }
-.points img {
-    position: relative;
-}
-.points .text-content {
-    position: absolute;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    margin: 30px auto 0;
-}
 .points .text-content .name {
     font-size: 14px;
     font-weight: bold;
@@ -195,10 +184,13 @@ header img {
     color: var(--color-blue);
     padding: 10px 0px;
 }
+.points .text-content .btn {
+    display: flex;
+}
 .points .text-content .btn img{
     margin-right: 10px;
+    width: 104px;
 }
-
 /* FOOTER */
 footer {
     display: flex;

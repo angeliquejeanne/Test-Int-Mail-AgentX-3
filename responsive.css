@@ -26,6 +26,23 @@
         margin: 20px auto;
         padding: 0px 20px;
     }
+    .points img {
+        position: relative;
+    }
+    .points .vers-mob {
+        display: block;
+    }
+    .points .vers-desk {
+        display: none;
+    }
+    .points .text-content {
+        position: absolute;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        margin: 30px auto 0;
+    }
 }
 @media (min-width: 768px) {
     body {
@@ -88,6 +105,44 @@
     }
     .points {
         width: 600px;
+    }
+    .points .vers-mob {
+        display: none;
+    }
+    .points .vers-desk {
+        display: block;
+    }
+    .points img {
+        position: relative;
+    }
+    .points .text-content {
+        position: absolute;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        align-items: left;
+        margin: 0 auto;
+    }
+    .points .text-content .part-one {
+        margin: 20px 100px 0px -50px;
+    }
+    .points .text-content .part-one .nbr-pt{
+       margin-top: 20px;
+    }
+    .points .text-content .part-two {
+        margin: 10px 20px 0px 50px;
+        width: 135px;
+    }
+    .points .text-content .btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .points .text-content .btn img{
+        margin: 0 10px 5px 0px;
+        width: 104px;
+        height: 24px;
+        
     }
     footer {
         width: 600px;
