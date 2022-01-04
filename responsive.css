@@ -77,17 +77,19 @@
     }
     .content-two .vers-desk {
         display: block;
+        width: 460px;
     }
     .content-two .text-content .txt-one {
         font-size: 20px;
         font-weight: bold;
         color: var(--color-blue);
-        padding: 60px 0px 20px;
+        padding: 40px 0px 20px;
     }
     .content-two .text-content .txt-two {
         font-size: 14px;
         color: var(--color-blue);
-        padding: 20px 0px 30px;
+        padding: 10px 0px 10px;
+        width: 295px;
     }
     .content-two .text-content {
         width: 380px;
@@ -98,10 +100,10 @@
         align-items: center;
         align-content: center;
         margin: 10px auto;
-        padding-left: 55px;
+        padding-left: 45px;
     }
     .content-two .text-content button {
-        margin: 20px auto;
+        margin: 10px auto;
     }
     .points {
         width: 600px;
@@ -111,6 +113,7 @@
     }
     .points .vers-desk {
         display: block;
+        width: 510px;
     }
     .points img {
         position: relative;
